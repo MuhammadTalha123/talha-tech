@@ -1,5 +1,6 @@
 import React from 'react';
 import web from "../src/images/img2.svg";
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
     return(
@@ -17,7 +18,7 @@ const Home = () => {
                           We are the team of talented developer making websites
                       </h2>
                       <div className="mt-3">
-                          <a href="" className="btn-get-started">Get Started</a>
+                          <NavLink href="" className="btn-get-started">Get Started</NavLink>
                       </div>
                   </div>
                   
