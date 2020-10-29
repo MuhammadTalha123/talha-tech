@@ -3,7 +3,7 @@ import app from  "../src/images/app.jpg";
 import android from "../src/images/android.jpg";
 import digital from "../src/images/digital.jpg";
 import marketing from "../src/images/marketing.jpg";
-import software from "../src/images/software.jpg";
+import software from "../src/images/software.png";
 
 
 const Sdata = [
