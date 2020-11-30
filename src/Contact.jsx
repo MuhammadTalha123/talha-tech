@@ -3,13 +3,23 @@ import React,{ useState  } from "react";
 const Contact = () => {
 
     const [fname, setName] = useState("");
+    const [phone, setPhone] = useState();
+    const [email, setEmail] = useState("");
 
         function fullName(e) {
             setName(e.target.value);
         }
 
+        function phoneNum(e) {
+            setPhone(e.target.value);
+        }
+
+        function emailAdress(e) {
+            setEmail(e.target.value);
+        }
+
         function onSubmit() {
-            alert("WellCome " + fname);
+            alert("WellCome " + fname + " and your phone number is " + phone + " and email adress is  " + email);
         }
 
 
@@ -39,7 +49,7 @@ return (
   <input
    type="number"
     className="form-control" 
-    //  onChange={InputEvent}
+     onChange={phoneNum}
      placeholder="phone Number"/>
 </div>
 <div classNameName="mb-3">
@@ -48,7 +58,7 @@ return (
    type="email" 
    className="form-control" 
    placeholder="Your Email adress"
-    //  onChange={InputEvent}
+     onChange={emailAdress}
      />
 </div>
 
