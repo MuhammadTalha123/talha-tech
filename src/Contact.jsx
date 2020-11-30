@@ -5,6 +5,7 @@ const Contact = () => {
     const [fname, setName] = useState("");
     const [phone, setPhone] = useState();
     const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
 
         function fullName(e) {
             setName(e.target.value);
@@ -18,8 +19,12 @@ const Contact = () => {
             setEmail(e.target.value);
         }
 
+        function Message(e) {
+            setMessage(e.target.value);
+        }
+
         function onSubmit() {
-            alert("WellCome " + fname + " and your phone number is " + phone + " and email adress is  " + email);
+            alert("WellCome " + fname + " and your phone number is " + phone + " and email adress is  " + email + ". Your message is " + message);
         }
 
 
@@ -68,7 +73,7 @@ return (
   <textarea
    className="form-control" 
    rows="3"
-//   onChange={InputEvent}
+  onChange={Message}
    placeholder="Enter your message"
   >
 
