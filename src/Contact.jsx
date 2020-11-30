@@ -3,7 +3,7 @@ import React,{ useState  } from "react";
 const Contact = () => {
 
     const [fname, setName] = useState("");
-    const [phone, setPhone] = useState();
+    const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
@@ -24,7 +24,7 @@ const Contact = () => {
         }
 
         function onSubmit() {
-            alert("WellCome " + fname + " and your phone number is " + phone + " and email adress is  " + email + ". Your message is " + message);
+            alert("WellCome (" + fname + ") and your phone number is (" + phone + ") and email adress is  (" + email + "). Your message is (" + message + ")");
         }
 
 
