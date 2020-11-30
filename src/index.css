@@ -100,8 +100,11 @@ font-size:1.5rem !important;
  }
 }
 footer p {
-  padding: 0;
-  margin: 0;
+  padding: 10px;
+  margin: 20px;
+  background-color: lightgray;
+  text-align: center;
+
 }
 
 

@@ -6,8 +6,8 @@ const Footer = () => {
 return (
 <>
 
-<footer className="w-100 bg-light text-center">
-    <p>© 2020 ThapaTechnical. All Rights Reserved | Terms and  Condition     </p>
+<footer className="footer">
+    <p>All Rights Reserved | Terms and  Condition     </p>
 </footer>
 
 </>
